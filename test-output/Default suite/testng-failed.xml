@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ShopifyCedCoss.CreateDevAcnt.CreateDev">
+      <class name="testngShopify.AddProduct">
         <methods>
-          <include name="logIn"/>
-          <include name="config"/>
+          <include name="addProduct"/>
         </methods>
-      </class> <!-- ShopifyCedCoss.CreateDevAcnt.CreateDev -->
+      </class> <!-- testngShopify.AddProduct -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
